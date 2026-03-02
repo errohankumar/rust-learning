@@ -1,0 +1,14 @@
+# Monorepo Rust .gitignore
+# Ignore all target folders in subprojects
+**/target/
+# Ignore Cargo.lock in libraries
+**/Cargo.lock
+# Ignore editor folders
+.vscode/
+.idea/
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore log and temp files
+*.log
+*.tmp
